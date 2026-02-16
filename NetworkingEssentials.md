@@ -1,5 +1,18 @@
 # Networking Core Protocols
 
+
+| Protocol | Transport Protocol | Default Port Number |
+|---------|-------------------|--------------------|
+| TELNET  | TCP               | 23                 |
+| DNS     | UDP or TCP        | 53                 |
+| HTTP    | TCP               | 80                 |
+| HTTPS   | TCP               | 443                |
+| FTP     | TCP               | 21                 |
+| SMTP    | TCP               | 25                 |
+| POP3    | TCP               | 110                |
+| IMAP    | TCP               | 143                |
+
+
 ## **DHCP**
 ### Release The DHCP
 ```bash
@@ -279,14 +292,3 @@ D OK Logout completed (0.001 + 0.000 secs).
 Connection closed by foreign host.
 
 ```
-
-| Protocol | Transport Protocol | Default Port Number |
-|---------|-------------------|--------------------|
-| TELNET  | TCP               | 23                 |
-| DNS     | UDP or TCP        | 53                 |
-| HTTP    | TCP               | 80                 |
-| HTTPS   | TCP               | 443                |
-| FTP     | TCP               | 21                 |
-| SMTP    | TCP               | 25                 |
-| POP3    | TCP               | 110                |
-| IMAP    | TCP               | 143                |
